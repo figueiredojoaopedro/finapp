@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Navbar from "./components/Navbar/Navbar";
+import ConverterSection from "./Sections/ConverterSection/ConverterSection";
+import { Tabela } from "./components/Tabela/Tabela";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div className="w-screen h-screen bg-gradient-to-t from-slate-700 to-zinc-900">
+      <header>
+        <Navbar></Navbar>
       </header>
+      <body>
+        <ConverterSection></ConverterSection>
+      </body>
+
+      <Tabela.HeaderBody>
+        
+      </Tabela.HeaderBody>
     </div>
   );
 }
