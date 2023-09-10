@@ -21,7 +21,7 @@ const TailwindInput = (props) => {
                 placeholder={props.placeholderText}
                 onFocus={handleInputFocus}
                 onBlur={handleInputBlur}
-                className={`w-full p-2 border-2 border-blue-500 rounded-md ${isFocused || props.inputValue !== '' ? 'border-blue-500' : 'border-gray-300'
+                className={`w-full h-10 p-2 border-2 border-blue-500 rounded-md ${isFocused || props.inputValue !== '' ? 'border-blue-500' : 'border-gray-300'
                     } focus:outline-none focus:border-blue-500`}
             />
         </div>
