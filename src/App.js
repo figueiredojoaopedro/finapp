@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "./components/Navbar/Navbar";
 import ConverterSection from "./Sections/ConverterSection/ConverterSection";
+import './App.css';
 import { Tabela } from "./components/Tabela/Tabela";
 
 function App() {

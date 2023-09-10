@@ -3,7 +3,7 @@ import Converter from "../../components/Converter/Converter";
 
 const ConverterSection = () => {
   return (
-    <div className='w-full h-full px-56 my-40'>
+    <div className='flex flex-col w-fit h-full px-56 my-40'>
         <Converter></Converter>
     </div>
   )
