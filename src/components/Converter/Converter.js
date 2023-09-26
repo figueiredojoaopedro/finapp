@@ -46,7 +46,7 @@ const Converter = () => {
     }
 
     return (
-        <div className='bg-slate-100 shadow-md text-black w-screen flex flex-col justify-center items-center py-10 md:w-full md:justify-start md:items-start md:rounded-lg md:p-10'>
+        <div className='bg-slate-100 shadow-md text-black w-full flex flex-col justify-center items-center px-14 py-10 md:w-fit md:justify-start md:items-start md:rounded-lg md:py-10 md:px-24'>
             <div className=''>
                 <h4 className='text-3xl font-semibold'>Convert</h4>
             </div>

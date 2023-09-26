@@ -20,6 +20,10 @@ function App() {
       <Tabela.HeaderBody>
         
       </Tabela.HeaderBody>
+      {/* chart about the world population... what does it have to do with the app, idk kkkkkkkk */}
+      <div>
+        
+      </div>
     </div>
   );
 }
